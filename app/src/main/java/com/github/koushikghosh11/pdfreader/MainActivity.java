@@ -3,6 +3,7 @@ package com.github.koushikghosh11.pdfreader;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity implements OnPDFClickListene
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toast.makeText(this, "PDF reader for internship at CodeClause", Toast.LENGTH_SHORT).show();
 
         runtimePermission();
     }
