@@ -29,5 +29,3 @@ The app requests storage permission to access local PDF files. This permission i
 **Disclaimer:**
 
 This is a basic project intended for educational purposes. It may require further development for production use.
-
-**CodeClause Internship**
